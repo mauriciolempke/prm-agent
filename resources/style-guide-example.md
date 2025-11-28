@@ -87,7 +87,7 @@ Impact MUST be expressed using **specific metrics and quantifiable results**:
 - Freeze reductions
 
 **Examples**:
-- ✅ "Reduced TSD by 15%"
+- ✅ "Reduced Latency by 15%"
 - ✅ "Increased WAU from 10K to 15K"
 - ✅ "Improved build speed by 40%"
 - ✅ "Reduced OOM errors by 60%"
@@ -100,13 +100,12 @@ Impact MUST be expressed using **specific metrics and quantifiable results**:
 - Specific evidence
 - Support tickets
 - Related incidents
-- SEVs
+- Production Incidents
 
 **Format**: `[i]` where i is citation number
 
 **Examples**:
-- "Resolved critical SEV [1] affecting 50K users"
-- "Root caused S512020 [2, 3]"
+- "Resolved critical Production Incident [1] affecting 50K users"
 - "Delivered DSS-4 compliance [4]"
 
 ### 3. Peer Feedback Integration (MANDATORY)
@@ -156,7 +155,7 @@ Impact MUST be expressed using **specific metrics and quantifiable results**:
 
 **Example**:
 ```
-* Landed VS Code Extension Migration [+]
+* Landed VS Code Extension Migration (+)
   ° Reduced bundle size by 60%
   ° Improved load time from 3s to 800ms
   ° Coordinated with 5 partner teams
@@ -175,28 +174,26 @@ Impact MUST be expressed using **specific metrics and quantifiable results**:
 
 **Example**:
 ```
-Project-Impact [EE]
-Engineering-Excellence [ME]
-Direction [GE]
-People [BE]
+Project Work [EE]
+Technical Debt [ME]
+Leadership [GE]
+Others [BE]
 ```
 
 ### 4. Rating Notation - Individual Bullets (MANDATORY)
 
 **Individual accomplishments** within axis sections must use:
 - `(=)` - Meeting baseline expectations
+- `(++)` - Significantly positive contribution
 - `(+)` - Surpassing expectations
 - `(-)` - Missing expectations
 
-**Also Valid** (observed in practice):
-- `[++]` - Significantly positive contribution
-- `[+]` - Positive contribution
 
 **Example**:
 ```
-* Landed VS Code Extension GA [+]
+* Landed VS Code Extension GA (+)
 * Root caused 3 critical SEVs (=)
-* Authored design doc for LSP migration [++]
+* Authored design doc for LSP migration (++)
 ```
 
 ---
@@ -206,17 +203,12 @@ People [BE]
 ### Acronym Usage
 
 **Use internal acronyms freely** within impact sections:
-- VS Code
-- IG GA (Internal Guardrails General Availability)
 - SLAs (Service Level Agreements)
 - WAU (Weekly Active Users)
 - MAU (Monthly Active Users)
 - OOM (Out Of Memory)
 - LSP (Language Server Protocol)
-- SEVs (Site Events)
 - CPE (Client Platform Engineering)
-- TSD (Time to Successful Development)
-- BADASS (Build And Deploy Automation Support System)
 - DSS-4 (Data Security Standard 4)
 - XFN (Cross-Functional)
 
@@ -229,12 +221,8 @@ People [BE]
 
 **Terms requiring glossary entries** (examples):
 - DSS-4
-- Cyberhaven
 - CPE
-- TSD
-- BADASS
 - AS-243
-- IG GA
 - LSP
 - Any team-specific acronyms
 
@@ -243,8 +231,6 @@ People [BE]
 ## Glossary
 * **DSS-4**: Data Security Standard 4 compliance requirements
 * **CPE**: Client Platform Engineering team
-* **TSD**: Time to Successful Development (developer productivity metric)
-* **BADASS**: Build And Deploy Automation Support System
 ```
 
 ---
@@ -278,11 +264,8 @@ People [BE]
 **Example**:
 ```
 ## Glossary
-* **DSS-4**: Data Security Standard 4 compliance requirements
-* **Cyberhaven**: Data loss prevention tool
+er* **DSS-4**: Data Security Standard 4 compliance requirements
 * **CPE**: Client Platform Engineering
-* **TSD**: Time to Successful Development
-* **BADASS**: Build And Deploy Automation Support System
 * **AS-243**: Security Assessment 243
 ```
 
@@ -362,7 +345,7 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 ---
 
-#### Axis 1: Project-Impact [Rating]
+#### Axis 1: Project Work [Rating]
 
 **Focus**:
 - Core goals delivery
@@ -373,7 +356,7 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 **Example**:
 ```
-## Project-Impact [EE]
+## Project Work [EE]
 
 * **Landed VS Code Extension GA** [+]
   ° Migrated 15 core extensions to new architecture
@@ -387,15 +370,21 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
   ° Onboarded 2K beta users
   ° Partnered with Language Platform team
 
-* **Owned BADASS rollout to DevInfra** [+]
+* **Owned new metric rollout to Infra** [+]
   ° Reduced build times by 35%
   ° Enabled 200+ developers
   ° Root caused and fixed 5 critical build failures
+
+* **Owned new metric rollout to Infra** [+]
+  ° Reduced build times by 35%
+  ° Enabled 200+ developers
+  ° Root caused and fixed 5 critical build failures
+
 ```
 
 ---
 
-#### Axis 2: Engineering-Excellence [Rating]
+#### Axis 2: Technical Debt [Rating]
 
 **Focus**:
 - Code health contributions
@@ -409,12 +398,12 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 **Example**:
 ```
-## Engineering-Excellence [CME]
+## Tech Debt [CME]
 
-* **Root caused 3 critical SEVs** [1, 2, 3] [+]
-  ° S512020: OOM errors affecting 10K users
-  ° S513405: Build freeze impacting CI pipeline
-  ° S514890: Extension crash on macOS
+* **Root caused 3 critical incidents** [1, 2, 3] (+)
+  ° I512020: OOM errors affecting 10K users
+  ° I513405: Build freeze impacting CI pipeline
+  ° I514890: Extension crash on macOS
   ° Implemented fixes reducing error rates by 80%
 
 * **Authored LSP design doc** (=)
@@ -422,12 +411,12 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
   ° Became template for team design docs
   ° Reviewed by 8 senior engineers
 
-* **Improved telemetry pipeline** [+]
+* **Improved telemetry pipeline** (+)
   ° Added 50+ new metrics for performance tracking
-  ° Reduced TSD measurement latency by 60%
+  ° Reduced WAU measurement latency by 60%
   ° Enabled real-time dashboards for leadership
 
-* **Reduced extension OOM errors by 70%** [++]
+* **Reduced extension OOM errors by 70%** (++)
   ° Memory profiling and optimization
   ° Implemented lazy loading patterns
   ° Prevented estimated 5K user complaints
@@ -435,7 +424,7 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 ---
 
-#### Axis 3: Direction [Rating]
+#### Axis 3: Leadership [Rating]
 
 **Focus**:
 - Strategic ownership
@@ -458,18 +447,18 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 **Example**:
 ```
-## Direction [GE]
+## Leadership [GE]
 
-* **Drove macOS Memory Management strategy** [++]
+* **Drove macOS Memory Management strategy** (++)
   ° Authored 30-page technical analysis
   ° Identified 3 critical optimization opportunities
   ° Partnered with **CPE** and **Security** teams
   ° Presented findings to VP of Engineering
   ° Shaped H2 roadmap priorities
 
-* **Led H2 planning for DevInfra** [+]
+* **Led H2 planning for Infrastructure** (+)
   ° Defined strategy for AI-driven development
-  ° Aligned with **FAIR** team on model integration
+  ° Aligned with **Product** team on model integration
   ° Coordinated with 4 **PM**s across Product org
   ° Created quarterly OKRs adopted by team
 
@@ -478,10 +467,15 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
   ° Designed architecture meeting compliance requirements
   ° Unblocked 3 teams waiting on compliance certification
 
-* **Spearheaded VS Code first strategy adoption** [+]
+* **Spearheaded VS Code first strategy adoption** (+)
   ° Created technical roadmap
   ° XFN alignment with 6 partner teams
   ° Enabled migration of 50+ internal tools
+
+* **Led AI Adoption on Infrastructure (-)
+  ° Responsible for defining the AI tools the org would adopt.
+  ° Had problems on making timely critical decisions, leading the team to lose the opportunity to adopt the AI tools.
+
 ```
 
 ---
@@ -505,9 +499,9 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
 
 **Example**:
 ```
-## People [EE]
+## Others [EE]
 
-* **Mentored 2 junior engineers** [+]
+* **Mentored 2 junior engineers** (+)
   ° **Alex Torres** (E3): Focused on code review skills and architecture patterns
   ° **Jordan Lee** (E4): Developed system design capabilities
   ° Both shipped first major features with Brian's guidance
@@ -518,12 +512,12 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
   ° Reduced ramp-up time from 8 weeks to 4 weeks
   ° All successfully shipped within first month
 
-* **Conducted 15 technical interviews** [+]
+* **Conducted 15 technical interviews** (+)
   ° Contributed to hiring 4 engineers
   ° Improved interview rubric based on feedback
   ° Trained 2 interviewers on technical assessment
 
-* **Led DevInfra tech talks series** [++]
+* **Led Infra tech talks series** (++)
   ° Delivered 3 talks on LSP architecture
   ° Attended by 100+ engineers
   ° Created reusable presentation materials
@@ -532,10 +526,14 @@ The DevInfra team focuses on **VS Code first strategy**, improving **DevX (Devel
   ° Helped 3 teammates prepare packets
   ° Reduced packet revision cycles by 50%
 
-* **Led H2 offsite planning** [+]
+* **Led H2 offsite planning** (+)
   ° Organized team roadmap session
   ° Facilitated technical deep dive workshops
   ° Improved team alignment scores by 40%
+
+* **Team planning (-)
+  ° Responsible for organizing team planning sessions, but failed on preparing the session, causing delays in team alignment.
+
 ```
 
 ---
