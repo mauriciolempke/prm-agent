@@ -1,110 +1,105 @@
-# Meta Engineering Expectations Framework
+# Generic Engineering Expectations Framework
 
 Reference guide for Sherlock and The IRS agents.
 
-**Source**: Meta IC (Individual Contributor) Engineering Expectations
+**Purpose**: This is a sample expectations framework. Replace with your organization's specific leveling and expectations framework.
 
 ---
 
-## Engineering Levels
+## Engineering Levels (Generic Example)
 
 | Level | Title | Scope |
 |-------|-------|-------|
-| **E3** | Software Engineer | Individual contributor, learning phase |
-| **E4** | Software Engineer | Strong individual contributor |
-| **E5** | Senior Software Engineer | Senior contributor with broader impact |
-| **E6** | Staff Software Engineer | Technical leadership, significant scope |
-| **E7** | Senior Staff Software Engineer | Org-level impact |
-| **E8** | Principal Engineer | Multi-org/company-wide impact |
-| **E9** | Distinguished Engineer | Industry-leading impact |
+| **Junior/IC1** | Software Engineer | Individual contributor, learning phase |
+| **Mid/IC2** | Software Engineer | Strong individual contributor |
+| **Senior/IC3** | Senior Software Engineer | Senior contributor with broader impact |
+| **Staff/IC4** | Staff Software Engineer | Technical leadership, significant scope |
+| **Senior Staff/IC5** | Senior Staff Software Engineer | Org-level impact |
+| **Principal/IC6** | Principal Engineer | Multi-org/company-wide impact |
+| **Distinguished/IC7** | Distinguished Engineer | Industry-leading impact |
+
+**Note**: Replace these with your organization's actual levels and titles (e.g., L3, L4, L5 or Grade 1, Grade 2, etc.).
 
 ---
 
-## Impact Areas & Expectations by Level
+## Expectations by Category (Customizable)
 
-### 1. Project Impact
+The following categories are examples. Replace with your organization's performance framework categories. These should align with the custom categories you define using the Sorting Hat agent.
+
+### 1. Key Accomplishments / Project Delivery
 **What**: Delivery of projects, features, and outcomes
 
-- **E3**: Executes on defined tasks, delivers small features
-- **E4**: Owns features end-to-end, handles ambiguity
-- **E5**: Leads projects, delivers significant product impact
-- **E6**: Drives multi-quarter initiatives, cross-team coordination
-- **E7**: Leads org-level programs, significant business impact
-- **E8+**: Company-wide strategic initiatives
+- **Junior/Early Career**: Executes on defined tasks, delivers small features
+- **Mid-Level**: Owns features end-to-end, handles ambiguity
+- **Senior**: Leads projects, delivers significant product impact
+- **Staff**: Drives multi-quarter initiatives, cross-team coordination
+- **Principal+**: Org/company-level strategic initiatives
 
-### 2. Engineering Excellence
+### 2. Technical Skills / Engineering Excellence
 **What**: Technical quality, architecture, best practices
 
-- **E3**: Writes clean code, learns best practices
-- **E4**: Demonstrates technical depth, makes sound design decisions
-- **E5**: Sets technical direction for projects, mentors on best practices
-- **E6**: Defines technical standards, influences architecture
-- **E7**: Shapes org-level technical strategy
-- **E8+**: Sets company-wide technical direction
+- **Junior/Early Career**: Writes clean code, learns best practices
+- **Mid-Level**: Demonstrates technical depth, makes sound design decisions
+- **Senior**: Sets technical direction for projects, mentors on best practices
+- **Staff**: Defines technical standards, influences architecture
+- **Principal+**: Shapes org/company-level technical strategy
 
-### 3. Direction
-**What**: Vision, strategy, technical leadership
-
-- **E3**: Executes on given direction
-- **E4**: Provides input on technical direction
-- **E5**: Sets direction for projects/areas
-- **E6**: Defines direction for teams/products
-- **E7**: Sets org-level strategy
-- **E8+**: Company-level strategic direction
-
-### 4. People Impact
+### 3. Leadership & Mentoring / People Development
 **What**: Mentoring, collaboration, team development
 
-- **E3**: Collaborates effectively, learns from others
-- **E4**: Mentors junior engineers, strong collaborator
-- **E5**: Mentors multiple engineers, builds team capability
-- **E6**: Develops senior engineers, builds high-performing teams
-- **E7**: Develops leaders, shapes org culture
-- **E8+**: Industry thought leadership
+- **Junior/Early Career**: Collaborates effectively, learns from others
+- **Mid-Level**: Mentors junior engineers, strong collaborator
+- **Senior**: Mentors multiple engineers, builds team capability
+- **Staff**: Develops senior engineers, builds high-performing teams
+- **Principal+**: Develops leaders, shapes org culture, industry thought leadership
 
-### 5. Org Impact
+### 4. Cross-functional Collaboration / Org Impact
 **What**: Organizational improvements, cross-team influence
 
-- **E3**: Contributes to team processes
-- **E4**: Improves team workflows and practices
-- **E5**: Cross-team collaboration, process improvements
-- **E6**: Org-level process/tooling improvements
-- **E7**: Multi-org influence, significant org change
-- **E8+**: Company-wide organizational impact
+- **Junior/Early Career**: Contributes to team processes
+- **Mid-Level**: Improves team workflows and practices
+- **Senior**: Cross-team collaboration, process improvements
+- **Staff**: Org-level process/tooling improvements
+- **Principal+**: Multi-org/company-wide organizational impact
+
+**Important**: The categories above are examples. You should customize these to match:
+1. Your organization's performance framework
+2. The custom categories you create with the Sorting Hat agent
+3. Your company's leveling philosophy
 
 ---
 
 ## Key Questions by Level
 
-### For E3 (Learning & Growing)
+### For Junior/Early-Career Engineers
 - Are they executing tasks independently?
 - Are they learning and applying feedback?
 - Are they collaborating effectively?
 - Are they demonstrating technical growth?
 
-### For E4 (Strong Contributor)
+### For Mid-Level Engineers
 - Do they own features end-to-end?
 - Do they handle ambiguity well?
 - Are they mentoring junior engineers?
 - Do they make sound technical decisions?
 
-### For E5 (Senior Leadership)
+### For Senior Engineers
 - Do they lead significant projects?
 - Do they set technical direction?
 - Do they have measurable product impact?
 - Are they developing other engineers?
 
-### For E6 (Staff)
+### For Staff/Lead Engineers
 - Do they drive multi-quarter initiatives?
 - Do they influence architecture?
 - Do they coordinate across teams?
 - Do they develop senior engineers?
 
-### For E7+ (Principal+)
+### For Principal+ Engineers
 - Org/company-level strategic impact?
 - Technical thought leadership?
 - Building leaders and culture?
-- Industry influence (E8+)?
+- Industry influence (for most senior levels)?
 
 ---
 
@@ -112,16 +107,16 @@ Reference guide for Sherlock and The IRS agents.
 
 ### What "Exceeds Expectations" Means
 
-- **E3**: Consistently delivers like E4, starts showing E4 capabilities
-- **E4**: Shows E5 impact, leads projects independently
-- **E5**: Demonstrates E6 scope, technical leadership across teams
-- **E6**: E7-level org impact, strategic influence
-- **E7+**: Operating at next level scope and impact
+- **Junior**: Consistently delivers like mid-level, starts showing next-level capabilities
+- **Mid-Level**: Shows senior-level impact, leads projects independently
+- **Senior**: Demonstrates staff-level scope, technical leadership across teams
+- **Staff**: Principal-level org impact, strategic influence
+- **Principal+**: Operating at next level scope and impact
 
 ### What "Meets Expectations" Means
 
 - Operating solidly at current level
-- Consistent performance across all areas
+- Consistent performance across all categories
 - Meeting scope and impact expectations
 - Growing in role
 
@@ -135,27 +130,27 @@ Reference guide for Sherlock and The IRS agents.
 
 ## Common Pitfalls by Level
 
-### E3
+### Junior/Early-Career
 - ❌ Not asking for help
 - ❌ Not learning from feedback
 - ❌ Inconsistent code quality
 
-### E4
+### Mid-Level
 - ❌ Not owning end-to-end
 - ❌ Avoiding ambiguity
 - ❌ Not mentoring
 
-### E5
+### Senior
 - ❌ Too narrow scope
 - ❌ Not setting direction
 - ❌ Insufficient product impact
 
-### E6
+### Staff/Lead
 - ❌ Not coordinating cross-team
 - ❌ Insufficient technical influence
 - ❌ Not developing senior engineers
 
-### E7+
+### Principal+
 - ❌ Not operating at org/company level
 - ❌ Insufficient strategic impact
 - ❌ Not building leaders
@@ -168,9 +163,9 @@ When analyzing performance data:
 
 1. **Check level context**: Use employee level to calibrate expectations
 2. **Ask level-appropriate questions**:
-   - E3: Focus on execution, learning, growth
-   - E5: Focus on leadership, project impact, technical direction
-   - E6+: Focus on scope, strategic impact, organizational influence
+   - Junior: Focus on execution, learning, growth
+   - Senior: Focus on leadership, project impact, technical direction
+   - Staff+: Focus on scope, strategic impact, organizational influence
 3. **Assess evidence against level**:
    - Does the impact match level expectations?
    - Is scope appropriate for level?
@@ -187,19 +182,36 @@ When analyzing performance data:
 When reviewing the draft:
 
 1. **Calibration questions should match level**:
-   - Don't expect E3 to show org-level impact
-   - Don't accept E6 showing only E4-level scope
+   - Don't expect junior engineers to show org-level impact
+   - Don't accept staff engineers showing only mid-level scope
 2. **Challenge scope claims**:
-   - "Is this impact significant for an E5?"
-   - "Does this demonstrate E6-level technical leadership?"
+   - "Is this impact significant for a senior engineer?"
+   - "Does this demonstrate staff-level technical leadership?"
 3. **Verify evidence matches level**:
-   - E3: Task completion, code quality
-   - E5: Project leadership, technical decisions, measurable impact
-   - E6+: Multi-team coordination, architectural influence
+   - Junior: Task completion, code quality
+   - Senior: Project leadership, technical decisions, measurable impact
+   - Staff+: Multi-team coordination, architectural influence
 4. **Rating justification**:
    - Does thesis support rating for this level?
    - Are "why not higher/lower" explanations level-appropriate?
 
 ---
 
-**Key Principle**: Expectations scale with level. What's exceptional for E3 may be baseline for E5.
+## Customization Instructions
+
+**To adapt this for your organization:**
+
+1. **Replace level names**: Change "Junior/Mid/Senior/Staff" to your org's levels (e.g., L3, L4, L5 or E3, E4, E5)
+2. **Update titles**: Use your organization's job titles
+3. **Customize categories**: Replace example categories with your org's performance framework categories
+4. **Align with Sorting Hat**: Ensure categories match those you use when categorizing data
+5. **Add company-specific expectations**: Include any unique expectations or cultural values
+
+**Example company-specific additions:**
+- Specific technical competencies (e.g., "Cloud Architecture", "Security")
+- Company values integration (e.g., "Customer Obsession", "Innovation")
+- Domain expertise requirements (e.g., "Financial Systems Knowledge" for fintech)
+
+---
+
+**Key Principle**: Expectations scale with level. What's exceptional for a junior engineer may be baseline for a senior engineer.
