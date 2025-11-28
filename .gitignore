@@ -1,0 +1,49 @@
+# Employee-specific review folders
+# These contain sensitive performance review data
+/**/
+!.gitignore
+!README.md
+!PRM_QuickStart.md
+!PLATFORM_GUIDE.md
+!FILE_FORMATS.md
+!agents/
+!resources/
+!templates/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Environment files
+.env
+.env.local
