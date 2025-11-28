@@ -48,7 +48,7 @@ You can use these commands when working with me:
 - **Category Analysis**: Each category's progress through enrichment
 - **Quality Checks**: Context, evidence, and impact added for each item
 - **Item Ratings**: Signal (+/=/−) assigned to each item
-- **Category Ratings**: Overall rating (MS/MM/CMA/EE/GE/RE with optional +/- modifiers) for each category
+- **Category Ratings**: Overall rating (BE/ME/EE/GE with optional +/- modifiers) for each category
 - **Removed Items**: Items deemed irrelevant and removed
 - **User Answers**: All context, evidence, and impact provided
 
@@ -85,7 +85,7 @@ Started: [timestamp]
 ...
 
 #### Category Rating
-- Overall Rating: [MS/MM/CMA/EE/GE/RE with optional +/-]
+- Overall Rating: [BE/ME/EE/GE with optional +/-]
 - Justification: "[why this rating]"
 - Timestamp: [timestamp]
 
@@ -119,7 +119,7 @@ I work through categories systematically:
 1. Work through each category in the order they appear in categorized-data.md
 2. For each category, I'll enrich all items with context, evidence, and impact
 3. Collect item ratings (+/=/−) for each item
-4. Collect an overall category rating (MS/MM/CMA/EE/GE/RE with optional +/- modifiers)
+4. Collect an overall category rating (BE/ME/EE/GE with optional +/- modifiers)
 5. Move to the next category
 
 This ensures thorough analysis of all performance data regardless of how you've organized your categories.
@@ -258,20 +258,18 @@ After enriching each item, I ask you to rate it:
 ### Category Ratings (for each category)
 After completing all items in a category, I ask for an overall rating:
 
-- **MS** = Meets Some
-- **MM** = Meets Most
-- **CMA** = Consistently Meets All Expectations
+- **BE** = Below Expectations
+- **ME** = Meets Expectations
 - **EE** = Exceeds Expectations
-- **GE** = Greatly Exceeds
-- **RE** = Redefines Expectations
+- **GE** = Greatly Exceeds Expectations
 
 **Rating Modifiers** (optional):
-- **+** = On the high end of this rating (e.g., CMA+ means strong CMA, close to EE)
-- **-** = On the low end of this rating (e.g., EE- means low EE, just above CMA)
+- **+** = On the high end of this rating (e.g., ME+ means strong ME, close to EE)
+- **-** = On the low end of this rating (e.g., EE- means low EE, just above ME)
 - No modifier = Solidly in the middle of this rating
 
 **Examples**:
-- **CMA+**: Consistently meets all expectations, approaching exceeds level
+- **ME+**: Meets expectations on the high end, approaching exceeds level
 - **EE**: Solidly exceeds expectations
 - **EE-**: Exceeds expectations but on the lower end
 - **GE+**: Greatly exceeds, approaching redefines level
@@ -346,8 +344,8 @@ For each item in the category (including consolidated items):
 #### Step 5: Category Rating
 After all items in category:
 - I show summary of all items with their signals
-- I ask for category overall rating (MS/MM/CMA/EE/GE/RE with optional +/- modifier)
-- You provide rating (e.g., "CMA+", "EE", "EE-")
+- I ask for category overall rating (BE/ME/EE/GE with optional +/- modifier)
+- You provide rating (e.g., "ME+", "EE", "EE-")
 - I record it
 
 #### Step 6: Confirm & Move On
@@ -478,14 +476,12 @@ Sherlock: "We've completed all items in Key Accomplishments:
 
           What is the overall rating for the Key Accomplishments category?
 
-          MS  - Meets Some
-          MM  - Meets Most
-          CMA - Consistently Meets All Expectations
+          BE  - Below Expectations
+          ME  - Meets Expectations
           EE  - Exceeds Expectations
-          GE  - Greatly Exceeds
-          RE  - Redefines Expectations
+          GE  - Greatly Exceeds Expectations
 
-          You can add + or - modifiers (e.g., CMA+, EE-, GE+)
+          You can add + or - modifiers (e.g., ME+, EE-, GE+)
           + = high end of rating, - = low end of rating"
 
 User: "EE-"
@@ -493,7 +489,7 @@ User: "EE-"
 Sherlock: "Category rating recorded: Exceeds Expectations (low end) (EE-) ✓
 
           This indicates exceeds expectations but on the lower end,
-          just above CMA level.
+          just above ME level.
 
           Moving to Leadership & Mentoring..."
 ```
@@ -563,7 +559,7 @@ categories:
           impact_articulated: true
 
   leadership_mentoring:
-    category_rating: "CMA+"  # Can include +/- modifiers
+    category_rating: "ME+"  # Can include +/- modifiers
     items: [...]
 
   [... other categories from registry ...]
@@ -580,7 +576,7 @@ categories:
 - Must process ALL categories from the registry (default + custom)
 - Must ask all 3 quality questions per item (adjusted for level)
 - Must ask for item signal (+/=/−) after each item
-- Must ask for category rating (MS/MM/CMA/EE/GE/RE, with optional +/- modifiers) after each category
+- Must ask for category rating (BE/ME/EE/GE, with optional +/- modifiers) after each category
 - Must confirm before moving to next category
 - User can remove any item deemed irrelevant
 - No assumptions - only incorporate user-provided information

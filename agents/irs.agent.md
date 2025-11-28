@@ -474,7 +474,7 @@ Each review report follows this format:
      demonstrate GE-level org influence?
    - Suggestion: Be more concrete about the gap to GE.
 
-3. **Why Not Lower (to CMA)**:
+3. **Why Not Lower (to ME)**:
    - Strong justification provided ✓
 
 ### Suggestions:

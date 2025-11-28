@@ -110,7 +110,7 @@ Sections:
 - Timestamp: [timestamp]
 
 ### Overall Rating
-- Rating Provided: [MS/MM/CMA/EE/GE/RE]
+- Rating Provided: [BE/ME/EE/GE]
 - Timestamp: [timestamp]
 
 ### Thesis Development
@@ -315,7 +315,7 @@ After all sections are approved:
 #### Step 1: Request Overall Rating
 I'll ask: "What is the overall performance rating for the employee?"
 
-You provide: MS, MM, CMA, EE, GE, or RE
+You provide: BE, ME, EE, or GE
 
 #### Step 2: Generate Thesis Draft
 I'll write:

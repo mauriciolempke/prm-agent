@@ -411,7 +411,7 @@ Oracle: [Reads file]
         - Key Projects: Led API redesign project (in progress at mid-year)
         - Technical Work: Improved test coverage initiative started
         - Team Contributions: Began mentoring Sarah in Q1
-        - Rating at mid-year: Meets Most Expectations (MM)
+        - Rating at mid-year: Meets Expectations (ME)
 
         URLs found in this document:
         (No URLs found)
