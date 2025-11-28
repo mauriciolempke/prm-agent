@@ -394,12 +394,10 @@ your-project/
 - **`-`** = Below expectations (needs improvement)
 
 ### Category Ratings (Sherlock)
-- **RE** = Redefines Expectations (exceptional, industry-leading)
 - **GE** = Greatly Exceeds (significant impact beyond role)
 - **EE** = Exceeds Expectations (strong performance, clear impact)
-- **CMA** = Consistently Meets All Expectations (solid performance)
-- **MM** = Meets Most (generally good with some gaps)
-- **MS** = Meets Some (needs improvement in this area)
+- **ME** = Meets Expectations (solid performance)
+- **BE** = Meets Most (generally good with some gaps)
 
 ---
 
