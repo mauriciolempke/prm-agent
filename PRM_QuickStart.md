@@ -155,7 +155,7 @@ Oracle → Sorting Hat → Sherlock → Shakespeare → IRS
 3. Impact? (Why did it matter?)
 4. Signal? (+/=/-)
 
-Then for each category, provide rating: MS/MM/CMA/EE/GE/RE
+Then for each category, provide rating: BE/ME/EE/GE
 
 ---
 

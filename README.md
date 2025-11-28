@@ -87,7 +87,7 @@ PRM Agent is an AI-powered workflow system that guides you through creating thor
 - Asks 3 key questions per item: Context? Evidence? Impact?
 - Adjusts impact bar by level (junior: task-level, senior: org-level)
 - Collects item ratings (+/=/-)
-- Collects category ratings (MS/MM/CMA/EE/GE/RE)
+- Collects category ratings (BE/ME/EE/GE)
 - Ensures no gaps or vague statements
 
 **Quality Checks**:
@@ -222,7 +222,7 @@ start-data-collection
 │  3. SHERLOCK - Quality Analysis & Rating                │
 │     • Enrich with context, evidence, impact             │
 │     • Collect item signals (+/=/-)                      │
-│     • Collect category ratings (MS/MM/CMA/EE/GE/RE)     │
+│     • Collect category ratings (BE/ME/EE/GE)            │
 │     Output: enhanced-review-data.md                     │
 └────────────────┬────────────────────────────────────────┘
                  │
@@ -331,7 +331,7 @@ your-project/
 3. Provide employee name when asked
 4. Answer the 3 quality questions for each item
 5. Provide item ratings (+/=/-)
-6. Provide category ratings (MS/MM/CMA/EE/GE/RE)
+6. Provide category ratings (BE/ME/EE/GE)
 7. Sherlock will generate: `./[employee-name]/output/enhanced-review-data.md`
 
 #### Step 4: Write with Shakespeare
@@ -394,10 +394,10 @@ your-project/
 - **`-`** = Below expectations (needs improvement)
 
 ### Category Ratings (Sherlock)
-- **GE** = Greatly Exceeds (significant impact beyond role)
+- **GE** = Greatly Exceeds Expectations (significant impact beyond role)
 - **EE** = Exceeds Expectations (strong performance, clear impact)
 - **ME** = Meets Expectations (solid performance)
-- **BE** = Meets Most (generally good with some gaps)
+- **BE** = Below Expectations (needs improvement)
 
 ---
 
@@ -420,7 +420,7 @@ Result: output/categorized-data.md
 You: start-analysis
 Sherlock: Enriches each item, collects ratings
 You: Provide context, evidence, impact for each item
-You: Rate items (+/=/−) and categories (MS/MM/CMA/EE/GE/RE)
+You: Rate items (+/=/−) and categories (BE/ME/EE/GE)
 Result: output/enhanced-review-data.md
 
 [Load Shakespeare]
