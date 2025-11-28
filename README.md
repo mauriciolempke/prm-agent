@@ -486,27 +486,59 @@ Shakespeare matches your style guide:
 
 ## 🤝 Contributing
 
-This is a personal workflow system, but feel free to:
-- Fork and adapt for your own needs
-- Create variations for different review styles
-- Add new agents for specific tasks
-- Share improvements
+Contributions, feedback, and suggestions are welcome! This project is open source and built for the community.
+
+**Ways to Contribute:**
+- 🐛 **Report bugs** - Open an issue on GitHub
+- 💡 **Suggest features** - Share your ideas for improvements
+- 📖 **Improve documentation** - Help make the guides clearer
+- 🔧 **Submit pull requests** - Add new features or fix issues
+- 🎨 **Create variations** - Adapt for different review styles or industries
+- 💬 **Share feedback** - Tell us what works and what doesn't
+
+**How to Contribute:**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+**Questions or Ideas?**
+Open an issue on GitHub or reach out on LinkedIn!
 
 ---
 
 ## 📝 License
 
-MIT License - Use and adapt as needed
+MIT License - Free to use, modify, and distribute.
+
+Copyright (c) 2024 Mauricio Lempke
+
+See the [LICENSE](LICENSE) file for full details.
+
+**You are free to:**
+- ✅ Use commercially
+- ✅ Modify and customize
+- ✅ Distribute and share
+- ✅ Use privately
+
+**Under the condition that:**
+- You include the original copyright notice and license
 
 ---
 
 ## 🙏 Acknowledgments
 
-**Created by**: Mauricio Nunes
+**Created by**: Mauricio Lempke
 
 Inspired by the **BMAD-METHOD** multi-agent architecture.
 
 Built for managers who want to write thoughtful, thorough, and defensible performance reviews.
+
+**Special Thanks:**
+- The AI agent community for pioneering multi-agent workflows
+- All engineering managers who spend countless hours writing thoughtful reviews
+- Contributors and users who provide feedback and suggestions
 
 ---
 
